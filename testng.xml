@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/thrymr/Desktop/sai_kumar/Downloads/INTELLEj/idea-IC-221.5591.52/Swetavahana">
+        <classes>
+            <class name="NomalTest.AddUser"><methods><include name="addUser"/></methods></class>
+            <class name="NomalTest.Oms"><methods><include name="createOrder"/><include name="modifyOrder"/></methods></class>
+            <class name="NomalTest.Order"><methods><include name="editingdata"/></methods></class>
+            <class name="TestPage.ContainerVisibilityTest"><methods><include name="clickingOnContainerTab"/></methods></class>
+            <class name="TestPage.FilterDataTest"><methods><include name="verifyingFilter"/></methods></class>
+            <class name="TestPage.ItemvisibilityTest"><methods><include name="verifyingItemVisibility"/></methods></class>
+            <class name="TestPage.LogingPageTest"><methods><include name="verifyingLoginPageTest"/></methods></class>
+            <class name="TestPage.LogoutTest"><methods><include name="verifyingLogOutPage"/></methods></class>
+            <class name="TestPage.UserTest"><methods><include name="verifingUser"/></methods></class>
+        </classes>
+    </test>
+</suite>
